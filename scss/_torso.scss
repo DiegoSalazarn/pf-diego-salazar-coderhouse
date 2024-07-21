@@ -25,6 +25,40 @@
     }
 
 
+    /*Parrafo de abajo de las cards*/
+    .parrafo-index p{
+        max-width: 600px; 
+        text-align: center; 
+        margin-left: 10px; 
+        background-color: #a9a9a9;
+        color: black;
+    }
+
+    .contenedor{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Imagen que está debajo de las cards*/
+        .imagen-index {
+            display: flex; // flexbox para alinear horizontalmente
+            justify-content: space-around; // Distribuye el espacio alrededor de las imágenes
+          
+            // Estilo para cada imagen dentro del contenedor
+            img {
+              width: 350px; // Ancho de cada imagen
+              height: 500px; // Altura automática para mantener la proporción
+              margin: 0 10px; // Espacio entre las imágenes
+              border-style: groove; 
+              border-color: #800000; 
+              transition: transform 0.2s ease;
+    
+        &:hover {
+            transform: scale(1.1);
+        }   
+          }
+        }
     /*PAGE - ARTICULOS*/
 
 .title-article h1{

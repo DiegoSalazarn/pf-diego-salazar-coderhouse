@@ -131,6 +131,38 @@
   margin-top: 10px;
 }
 
+/*Parrafo de abajo de las cards*/
+.parrafo-index p {
+  max-width: 600px;
+  text-align: center;
+  margin-left: 10px;
+  background-color: #a9a9a9;
+  color: black;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Imagen que está debajo de las cards*/
+.imagen-index {
+  display: flex;
+  justify-content: space-around;
+}
+.imagen-index img {
+  width: 350px;
+  height: 500px;
+  margin: 0 10px;
+  border-style: groove;
+  border-color: #800000;
+  transition: transform 0.2s ease;
+}
+.imagen-index img:hover {
+  transform: scale(1.1);
+}
+
 /*PAGE - ARTICULOS*/
 .title-article h1 {
   font-size: 30px;
