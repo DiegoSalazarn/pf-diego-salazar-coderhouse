@@ -48,6 +48,14 @@
   transform: scale(1.1);
 }
 
+.navbar-expand-lg {
+  background-color: #bc8f8f;
+}
+
+.nav-link {
+  color: white;
+}
+
 /*Para centrar más las cosas del navbar*/
 #navbarNav {
   display: flex;
