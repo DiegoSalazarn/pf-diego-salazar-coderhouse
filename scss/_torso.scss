@@ -31,7 +31,7 @@
         max-width: 600px; 
         text-align: center; 
         margin-left: 10px; 
-        background-color: #a9a9a9;
+        background-color: #fbfbf4;
         color: black;
     }
 
@@ -52,7 +52,7 @@
               height: 500px; // Altura automática para mantener la proporción
               margin: 0 10px; // Espacio entre las imágenes
               border-style: groove; 
-              border-color: #800000; 
+              border-color: #fbfbf4; 
               transition: transform 0.2s ease;
     
         &:hover {
@@ -61,16 +61,6 @@
           }
         }
     /*PAGE - ARTICULOS*/
-
-.title-article h1{
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-    color: #fbfbf4;
-    margin-bottom: 20px;
-    margin-top: 10px;
-}
-
 .article-secondTitle h2{
     font-size: 30px;
     display: flex;
@@ -114,17 +104,6 @@
 
 .container-formulario input{
     background-color: #fbfbf4;
-}
-
-.primary-titleForm h1{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 35px;
-    display: flex ;
-    justify-content: center;
-    background-color:  black;
-    color: #fbfbf4;
-    margin-top: 20px;
-
 }
 
 .email-container{
