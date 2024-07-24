@@ -1,12 +1,26 @@
     /*TODO EL INDEX HASTA AVISAR CAMBIO DE PAGINA*/
 
 /*Primer titulo h1 index*/
+body{
+    background-color: grey;
+}
+
+.linea-blanca{
+    background-color: white;
+    
+}
+
+.linea-blanca p{
+    margin-bottom: 0px;
+    font-size: 3px;
+}
 .titulo-index h1{
-    background-color: brown;
+    font-family: serif;
+    background-color: black;
     display: flex;
     justify-content: center;
-    color: black;
-    margin-top: 5px;
+    color: #fbfbf4;
+    margin-top: 0px;
     padding: 0%;
 }
 
@@ -17,5 +31,7 @@
         justify-content: center;
         margin-bottom: 20px;
         margin-top: 10px;
+        border-style: double;
+        border-color: black;
     }
     
