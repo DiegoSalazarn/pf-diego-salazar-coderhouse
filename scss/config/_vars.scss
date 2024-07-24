@@ -1,7 +1,7 @@
 /*M A P A S*/
 
 $color-title:(
-    tomato: tomato
+    black: black
 );
 // chacha - chichi
 @each $chacha, $chichi in $color-title{
@@ -9,8 +9,6 @@ $color-title:(
         background-color:$chichi;
     }
 }
-
-
 //Declaramos el mapa a leer
 $my-font-sizes:(
     xs:     10px,
@@ -20,7 +18,6 @@ $my-font-sizes:(
 );
 //
 //Formato - talle
-
 @each $formato, $talle in $my-font-sizes{
     .Dfz-#{$formato}{
         font-size: $talle;
